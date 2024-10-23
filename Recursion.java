@@ -54,7 +54,7 @@ public class Recursion {
         //     System.out.println(powa);
         // }
 
-    //3. Tower of Hanoi using Recursion
+    //3. Tower of Hanoi using Recursion (Time complexity = 2^n)
     
     // public static void toh(int n,String src, String helper, String dest){
     //     if(n==1){
@@ -67,9 +67,25 @@ public class Recursion {
     // }
 
 
-    // public static void main(String[] args) {
-    //     int n = 3;
+    // public static void main(String[] args) {    
+    //     int n = 4; 
     //     toh(n, "S", "H", "D");
         
+    // }
+
+
+    //4. Reverse a string using recursion (time complexity = O(n), where n =  length of string)
+
+    // public static void func(String s,int ind){
+    //     if(ind==0){
+    //         System.out.print(s.charAt(ind));
+    //         return;}
+    //     System.out.print(s.charAt(ind));
+    //     func(s, ind-1);
+    // }
+
+    // public static void main(String[] args) {
+    //     String s = "shrey";
+    //     func(s,4);
     // }
 }
