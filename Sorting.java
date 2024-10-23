@@ -44,28 +44,28 @@ public class Sorting {
 //  }
 
 //2. SELECTION SORT
-public static void func(int arr[]){
-            System.out.println("Sorted array is:");
-            for(int j=0;j<arr.length;j++){
-                System.out.print(arr[j]);
-                System.out.print(" ");
-        }}
-public static void main(String[] args) {
- int [] arr = {8,8,3,1,2};
+// public static void func(int arr[]){
+//             System.out.println("Sorted array is:");
+//             for(int j=0;j<arr.length;j++){
+//                 System.out.print(arr[j]);
+//                 System.out.print(" ");
+//         }}
+// public static void main(String[] args) {
+//  int [] arr = {8,8,3,1,2};
 
-for(int i=0;i<arr.length-1;i++){
-    int smal = i;
-    for (int j = i + 1; j < arr.length; j++) {
-        if (arr[j] < arr[smal]) {
-            smal = j; // Update the smallest index
-        }}
-   int temp = arr[smal];
-   arr[smal] = arr[i];
-   arr[i] = temp;
+// for(int i=0;i<arr.length-1;i++){
+//     int smal = i;
+//     for (int j = i + 1; j < arr.length; j++) {
+//         if (arr[j] < arr[smal]) {
+//             smal = j; // Update the smallest index
+//         }}
+//    int temp = arr[smal];
+//    arr[smal] = arr[i];
+//    arr[i] = temp;
 
    
-}
-func(arr);}
+// }
+// func(arr);}
 
 
 //3. INSSERTION SORT
