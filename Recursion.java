@@ -147,4 +147,37 @@ public class Recursion {
         
     //     System.out.println(m(0, arr));
     // }
+
+
+    //7. Moving a character to the end using Recursion
+    // Since we traversed string 2 times, once for axbcxxd and other in for loop our TX is:
+    // TX= O(n + count), here n = length of string, count = no of x
+    // TX = O(n + n), count == n i.e maximum no of traverse to add X
+    // TX = O(2n), since we ignore constants our time complexity is:
+    // TX = O(n)
+
+    // public static void moveallx(String s, int idx, int cnt, String ns){
+    //     if(idx==s.length()){
+    //         for(int i =0;i<cnt;i++){
+    //             ns += 'x';
+               
+    //         }
+    //         System.out.println(ns);
+    //         return;
+    //     }
+
+    //     char a = s.charAt(idx);
+    //     if(a=='x'){
+    //         cnt++;
+    //         moveallx(s, idx+1, cnt, ns);
+    //     }
+    //     else{
+    //         ns += a;
+    //         moveallx(s, idx+1, cnt, ns);
+    //     }
+    // }
+    // public static void main(String[] args) {
+    //     String s = "axbcxxd";  
+    //     moveallx(s, 0, 0, "");      
+    // }
 }
