@@ -88,4 +88,37 @@ public class Recursion {
     //     String s = "shrey";
     //     func(s,4);
     // }
+
+
+    //5. Find first and last occurance of a character using Recurison (Time comp = O(n), where n = length of string)
+
+    // public static int f = -1; // f and l are -1 such that it wont confuse if its a value of a var or of array
+    // public static int l = -1;
+
+    // public static void FandL(String s, int idx, char ele){
+        
+    //     if(idx==s.length()){
+    //         if(f==-1 && l==-1){                                            // Base condition
+    //             System.out.println("char dosent exist in given string");
+    //         }
+    //         else{
+    //         System.out.println(f);
+    //         System.out.println(l);}
+    //         return;
+    //     }
+    //     char cond = s.charAt(idx);
+    //     if(cond==ele){
+    //         if(f==-1){
+    //             f = idx;
+    //         }
+    //         l = idx;
+    //     }
+        
+    //     FandL(s, idx+1, ele);
+    // }
+    // public static void main(String[] args) {
+    //     String s = "ababacbabac";
+    //     FandL(s, 0, 'b');
+        
+    // }
 }
