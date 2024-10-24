@@ -180,4 +180,33 @@ public class Recursion {
     //     String s = "axbcxxd";  
     //     moveallx(s, 0, 0, "");      
     // }
+
+
+    //8. Removing duplicate elements from a string using Recursion
+    //Since we traversed the code 1 time our, time complexity is:
+    //TX= O(n)
+
+    // public static boolean[] map = new boolean[26];  // creates a Map for storing the characters, since 26 alphabhets
+    //                                                 //size is 26 as there are 26 alphabhers, initially all values are false 
+
+    // public static void RDE(String str, int idx, String nstr){
+    //     if(idx==str.length()){
+    //         System.out.println(nstr);
+    //         return;
+    //     }
+    //     char cc = str.charAt(idx);
+    //     if(map[cc-'a']){                            // can also be written as if(map[cc-'a']==true), 
+    //                                                 //logic expl in bk
+    //         RDE(str, idx+1, nstr);
+    //     }
+    //     else{
+    //         map[cc-'a']=true;
+    //         nstr += cc;
+    //         RDE(str, idx+1, nstr);
+    //     }
+    // }
+    // public static void main(String[] args) {
+    //     String str = "aabbccdd";
+    //     RDE(str, 0, "");
+    // }
 }
