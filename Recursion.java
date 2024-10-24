@@ -91,6 +91,7 @@ public class Recursion {
 
 
     //5. Find first and last occurance of a character using Recurison (Time comp = O(n), where n = length of string)
+    // Since we Traverse the string once TX = O(n)
 
     // public static int f = -1; // f and l are -1 such that it wont confuse if its a value of a var or of array
     // public static int l = -1;
@@ -120,5 +121,30 @@ public class Recursion {
     //     String s = "ababacbabac";
     //     FandL(s, 0, 'b');
         
+    // }
+
+
+    //6. checking if a increasingly string is sorted using recursion
+    // Since we Traversed array once our time complexity becomes "O(n)", where n is the length of array
+
+    // public static boolean m(int idx,int[] arr){
+    
+    //     if(idx==arr.length-1){
+    //         return true;
+    //     }
+   
+    //     if(arr[idx]<arr[idx+1]){
+    //         return m(idx+1, arr);
+    //     }
+    //     else{
+    //      return false;
+    //     }
+        
+    //  }
+
+    // public static void main(String[] args) {
+    //     int [] arr = {1,2,3,4,5};
+        
+    //     System.out.println(m(0, arr));
     // }
 }
